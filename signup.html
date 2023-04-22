@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Earth_icon_2.png/640px-Earth_icon_2.png">
+    <link rel="stylesheet" href="/bài thực hành/signup.css">
+</head>
+<body>
+    <img id="img_1" src="https://caycanhbancong.com/wp-content/uploads/2020/11/cay-canh-ban-cong-logo.png">
+      <div id="header">
+          <ul id="nav">
+              <li><a href="/bài thực hành/index.html">Trang chủ</a></li>
+              <li><a href="/bài thực hành/about.html">Về chúng tôi</a></li>
+              <li><a href="/bài thực hành/services.html">Dịch vụ</a></li>
+              <li><a href="/">Blog</a></li>
+          </ul>        
+      </div>
+
+      <!-- <img id="img_2" src="https://images.news18.com/ibnlive/uploads/2021/04/1619009985_shutterstock_1104875003.jpg?im=FitAndFill,width=1200,height=900"> -->
+
+      <img id="img_2" src="images/1619009985_shutterstock_1104875003.avif">
+
+      <div class="wrapper">
+        <from action="" class="form-signup">
+            <h1 class="form-heading">Đăng ký</h1>
+            <div class="form-group">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                  </svg>
+                <input type="text" class="form-input" placeholder="Tên đăng nhập"> 
+            </div>
+
+            <div class="form-birthday">
+            <h3>Sinh nhật</h3>
+            <select id="day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+              </select>
+              <select id="month">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+              <select id="year">
+                <option value="0">0</option>
+                <option value="1">1990</option>
+                <option value="2">1991</option>
+                <option value="3">1992</option>
+                <option value="4">1993</option>
+                <option value="5">1994</option>
+                <option value="6">1995</option>
+                <option value="7">1996</option>
+                <option value="8">1997</option>
+                <option value="9">1998</option>
+                <option value="10">1999</option>
+                <option value="11">2000</option>
+                <option value="12">2001</option>
+                <option value="13">2002</option>
+                <option value="14">2003</option>
+                <option value="15">2004</option>
+                <option value="16">2005</option>
+                <option value="17">2006</option>
+                <option value="18">2007</option>
+                <option value="19">2008</option>
+                <option value="20">2009</option>
+                <option value="21">2010</option>
+                <option value="22">2011</option>
+                <option value="23">2012</option>
+                <option value="24">2013</option>
+                <option value="25">2014</option>
+                <option value="26">2015</option>
+                <option value="27">2016</option>
+                <option value="28">2017</option>
+                <option value="29">2018</option>
+                <option value="30">2019</option>
+                <option value="31">2020</option>
+                <option value="32">2021</option>
+                <option value="33">2022</option>
+                <option value="34">2023</option>
+              </select>
+            </div>
+
+            <div>
+              <label>Nam</label>
+              <input type="radio" id="male" value="male">
+              <label>Nữ</label>
+              <input type="radio" id="male" value="female">
+              <label>Không tiết lộ</label>
+              <input type="radio" id="male" value="custom">
+            </div>
+
+            <div class="form-group">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                    <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                  </svg>
+                <input type="text" class="form-input" placeholder="Mật khẩu"> 
+            </div>
+            <button class="form-submit" onclick="regis()">Đăng ký</button>
+        </from>
+      </div>
+</body>
+<script src="./scripts.js/"></script>
+</html>
