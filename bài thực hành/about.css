@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    text-decoration: none;
+    outline: none;
+    border: none;
+  }
+#img_1 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+#img_2 {
+    width: 100%;
+    height: 250px;
+}
+#header {
+    background-color: black;
+    padding-left: 5%;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+  }
+  
+#nav li {
+    display: inline-flex;
+    padding: 15px;
+  }
+  
+#nav li:hover {
+    background-color: rgb(56, 231, 37);
+    color: black;
+  }
+
+.p_1 {
+  position: absolute;
+  background-color: rgb(111, 178, 43);
+  color:azure;
+  font-size: 15px;
+  width: 1000px;
+  height: 45px;
+  top: 45%;
+  left: 130px;
+  padding: 10px;
+}
+p a {
+  font-size: 13px;
+  color: rgb(106, 65, 23);
+}
+
+#img_3 {
+  width: 500px;
+  height: 420px;
+  position: absolute;
+  padding: 60px 0px;
+  left: 130px;
+}
+
+b {
+  position: absolute;
+  color:rgb(106, 45, 45);
+  font-size: 20px;
+  top: 57%;
+  left: 51%;
+}
+
+.p_2 {
+  position: absolute;
+  color:rgb(106, 45, 45);
+  font-size: 14px;
+  top: 63%;
+  margin-left: 51%;
+  right: 160px;
+}
+
+.p_3 {
+  position: absolute;
+  color:rgb(106, 45, 45);
+  font-size: 14px;
+  top: 77%;
+  margin-left: 51%;
+  right: 133px;
+}
+
+.p_4 {
+  position: absolute;
+  color:rgb(106, 45, 45);
+  font-size: 14px;
+  top: 92%;
+  margin-left: 51%;
+  right: 136px;
+}
+
+h1 {
+  color:rgb(106, 45, 45);
+  font-size: 25px;
+  position: absolute;
+  top: 114%;
+  left: 130px;
+}
+
+#img_4 {
+  width: 240px;
+  height: 290px;
+  margin-top: 34%;
+  margin-left: 10%; 
+}
+
+.div_me {
+  position: absolute;
+  margin-left: 35%;
+  top: 122%;
+}
+
+h2 {
+  font-size: 25px;
+  color:rgb(106, 45, 45);
+}
+
+div p {
+  color:rgb(75, 80, 76);
+  font-size: 15px;
+}
+
+.facebook_1 {
+  width: 25px;
+  margin: 0px 8px;
+}
+
+.youtube_1 {
+  width: 29px;
+  margin: 0px 8px;
+}
+
+.discord_1 {
+  width: 30px;
+  margin: 0px 8px;
+}
+
+.h3_icon {
+  background-color: rgb(111, 178, 43);
+  text-align: center;
+  height: 50px;
+  margin-top: 24px; 
+  padding-top: 5%;
+}
+
+h4 {
+  font-size: 25px;
+  color:rgb(106, 45, 45);
+  margin: 50px 10%;
+}
+
+footer {
+  background-color: rgb(125, 122, 122);
+  color:rgb(55, 227, 242);
+}
+
+.footer-list {
+  margin: 12px 0px;
+  list-style:none;
+}
+.grid__row {
+  display: flex;
+}
+
+.footer__heading {
+  margin: 0px 80px;
+}
+
+.footer-item__link {
+  margin: 0px 80px;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+}
+
+.user {
+  width: 10px;
+}
+
+.phone {
+  width: 10px;
+}
+
+.gmail {
+  width: 9px;
+}
+
+.facebook {
+  width: 10px;
+}
+
+.youtube {
+  width: 11px;
+}
+
+.discord {
+  width: 11px;
+}

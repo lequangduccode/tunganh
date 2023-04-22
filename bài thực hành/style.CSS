@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    text-decoration: none;
+    outline: none;
+    border: none;
+  }
+#img_1 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+img {
+    width: 100%;
+    height: 500px;
+}
+#header {
+    background-color: black;
+    padding-left: 5%;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+  }
+  
+#nav li {
+    display: inline-flex;
+    padding: 15px;
+  }
+  
+  #nav li:hover {
+    background-color: rgb(56, 231, 37);
+    color: black;
+  }
+  h1{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: start;
+    padding-left: 270px;
+  }
+
+  h2 {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: start;
+  }
+
+  h4 {
+    background-color: rgb(244, 196, 91);
+    color: rgb(26, 178, 26);
+    text-align: center;
+  }
+
+  p {
+    color: rgba(255, 0, 0, 0.779);
+    font-size: 10px;
+  }
+
+  .infomation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+  }
+
+  #img-1{
+    width: 225px;
+    height: 220px;
+  }
+
+  #img-2{
+    width: 225px;
+    height: 220px;
+  }
+
+  #img-3{
+    width: 225px;
+    height: 220px;
+  }
+
+  form {
+    text-align: start;
+    padding-left: 269px;
+    position: absolute;
+    right: 50%;
+  }
+
+  div ul li {
+    color: rgba(255, 0, 0, 0.779);
+  }
+
+  #img_2{
+    width: 366px;
+    height: 265px;
+    position: absolute;
+    left: 50%;
+  }
+
+  h5 {
+    font-size: 11px;
+    text-align: start;
+    padding-left: 269px;
+    position: absolute;
+    right: 50%;
+    top: 173%;
+  }
+
+  #img-4 {
+    width: 230px;
+    height: 210px;
+  } 
+
+  #img-5 {
+    width: 230px;
+    height: 210px;
+  }
+
+  #img-6 {
+    width: 230px;
+    height: 210px;
+  }
+
+  .h6_1 {
+    position: absolute;
+    background-color: rgb(85, 56, 4);
+    width: 230px;
+    height: 45px;
+    top: 227%;
+    color: rgb(9, 204, 61);
+    font-size: 15px;
+    padding: 12px;
+  }
+
+  #img-7 {
+    width: 230px;
+    height: 210px;
+  }
+
+  #img-8 {
+    width: 230px;
+    height: 210px;
+  }
+
+  #img-9 {
+    width: 230px;
+    height: 210px;
+  }
+
+  .h6_2 {
+    position: absolute;
+    background-color: rgb(85, 56, 4);
+    width: 230px;
+    height: 45px;
+    top: 269%;
+    color: rgb(9, 204, 61);
+    font-size: 15px;
+    padding: 13px;
+  }
+
+.lorem {
+    text-align: start;
+    padding-left: 269px;
+    position: absolute;
+    right: 42%;
+    color:rgb(194, 165, 4);
+    font-size: 11px;
+}
+
+button {
+  position: absolute;
+  font-size: 20px;
+  background-color: rgb(118, 197, 0);
+  color: rgb(10, 11, 12);
+  left: 61%;
+  width: 230px;
+  height: 38px;
+}
+
+button:hover {
+  background-color: rgb(147, 228, 90);
+    color: rgb(31, 30, 30);
+}
+
+footer {
+  background-color: rgb(125, 122, 122);
+  color:rgb(55, 227, 242);
+}
+
+.footer-list {
+  margin: 12px 0px;
+  list-style:none;
+}
+.grid__row {
+  display: flex;
+}
+
+.footer__heading {
+  margin: 0px 80px;
+}
+
+.footer-item__link {
+  margin: 0px 80px;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+}
+
+.user {
+  width: 10px;
+}
+
+.phone {
+  width: 10px;
+}
+
+.gmail {
+  width: 9px;
+}
+
+.facebook {
+  width: 10px;
+}
+
+.youtube {
+  width: 11px;
+}
+
+.discord {
+  width: 11px;
+}
+
+#sign_up {
+  position: absolute;
+  color: aliceblue;
+  top: 0%;
+  left: 90%;
+  width: 110px;
+  height: 60px;
+}
+
+.sign_up-list {
+  list-style:none;
+  margin: 12%;
+}
+
+#sign_up:hover {
+  background-color: rgb(56, 231, 37);
+    color: black;
+}
